@@ -8,13 +8,13 @@ In this example we've got a database for you!
 
 To run `synth` simply type:
 
-'''bash
+```bash
 synth train --database postgres \
             --host todo:5432 \
             --username user \
             --schema tpch \
 			--deploy
-'''
+```
 
 Now you'll be prompted for the password (if you're scripting you can specify it using the `--password` flag)
 
